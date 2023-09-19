@@ -32,7 +32,7 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        Log.d("jblee", "itemPosition = $itemPosition")
+        Log.d("yjRyu", "itemPosition = $itemPosition")
 
         binding.ivItemImage.setImageDrawable(item?.let {
             ResourcesCompat.getDrawable(
